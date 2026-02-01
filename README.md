@@ -5,4 +5,5 @@ This repository contains projects built following the [roadmap.sh](https://roadm
 ## Projects List
 
 [Curriculo](https://roadmap.sh/projects/single-page-cv), [Basic HTML Website
-](https://roadmap.sh/projects/basic-html-website)
+](https://roadmap.sh/projects/basic-html-website),[Componente de registro de alterações
+](https://roadmap.sh/projects/changelog-component)
