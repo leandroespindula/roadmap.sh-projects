@@ -5,7 +5,129 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Basic HTML Website</title>
 </head>
-<body>
+<body 
+    style="margin: 0; padding: 0;
+    padding-left: 25%;
+    padding-right: 25%;">
+
+    <header
+       style="display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 3.5rem;">
+        <img src="/HTML/02-Basic-HTML-Website/image/homem.png" alt="Logo do site" width="15%">
+        <nav >
+            <ul 
+                style="display: flex;
+                gap: 20px;
+                color: inherit;
+                font-weight: 600;
+                text-decoration: none;
+                list-style: none;">
+                <li><a href="/HTML/02-Basic-HTML-Website/index.html">Home</a></li>
+                <li><a href="/HTML/02-Basic-HTML-Website/projetos.html">Projetos</a></li>   
+                <li><a href="/HTML/02-Basic-HTML-Website/artigos.html">Artigos</a></li>
+                <li><a href="/HTML/02-Basic-HTML-Website/contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section 
+        style="display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1.5rem;
+        min-width: 100%;
+        min-height: 35vh;
+        background-color: antiquewhite;
+        justify-content: center;">
+        <h1>Front end developer</h1>
+        <h4 style="margin-top: -15px;">html apenas constroi estruturas, não estilo.</h4 >
+    </section>
+
+    <section 
+        style="display: flex; gap: 20px;
+        justify-content: space-between;
+        margin-top: 3.5rem;">
+        <aside 
+            style="display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: center;">
+            <h3>Projetos</h3>
+            <a href=""><button type="button">HTML</button></a>
+            <a href=""><button type="button">CSS</button></a>
+            <a href=""><button type="button">JS</button></a>
+            <a href=""><button type="button">REACT</button></a>
+        </aside>
+        <div> 
+            <h2>
+                experiência
+            </h2>
+            <div>
+                <div>
+                    <h3>Roadmaps.sh</h3>
+                    <p>Desenvolvedor Front end</p>
+                    <p>Março de 2023 - Dezembro de 2023</p>
+                    <a href="https://github.com/leandroespindula/roadmap.sh-projects">Visite meu Github</a>
+                </div>
+                <br style="border-top: 1 px solid #000;">
+                <div>
+                    <h3>Roadmaps.sh</h3>
+                    <p>Desenvolvedor Front end</p>
+                    <p>Março de 2023 - Dezembro de 2023</p>
+                    <a href="https://github.com/leandroespindula/roadmap.sh-projects">Visite meu Github</a>
+                </div>
+                
+            </div>
+            <div>
+                
+            </div>
+        </div>
+        <div>
+            <h2>Educação</h2>
+            <p></p>
+        </div>
+    </section>
+
+    <section style="margin-top: 3.5rem;">
+        <div>
+            <h2>Meu professores</h2>
+        </div>
+
+        <div style="display: flex;
+        flex-direction: row;
+        gap: 15px;">
+            <div style="border: 1px solid #000; padding: 10px;
+            border-radius: 25px;">
+                <p> 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis tempore quia voluptatibus aliquid in itaque, laborum non totam corrupti perspiciatis at cupiditate officiis impedit qui ipsa blanditiis excepturi, quaerat dolorem?
+                    
+                </p>
+                <span style="color: blue;">Nome do professor</span>
+            </div>
+            <div style="border: 1px solid #000; padding: 10px;
+            border-radius: 25px;">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis tempore quia voluptatibus aliquid in itaque, laborum non totam corrupti perspiciatis at cupiditate officiis impedit qui ipsa blanditiis excepturi, quaerat dolorem?
+                </p>
+                <span style="color: blue;">Nome do professor</span>
+            </div>
+            <div style="border: 1px solid #000; padding: 10px;
+            border-radius: 25px;">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis tempore quia voluptatibus aliquid in itaque, laborum non totam corrupti perspiciatis at cupiditate officiis impedit qui ipsa blanditiis excepturi, quaerat dolorem?
+                </p>
+                <span style="color: blue;">Nome do professor</span>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div style="display: flex; justify-content: center; padding: 20px;
+        margin-top: 3.5rem;">
+            <p>© 2024 Leandro Espíndula. Todos os direitos reservados.</p>
+        </div>
     
 </body>
 </html>
